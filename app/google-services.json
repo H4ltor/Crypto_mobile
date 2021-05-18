@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197774047665",
+    "firebase_url": "https://projet-web-543b1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "projet-web-543b1",
+    "storage_bucket": "projet-web-543b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197774047665:android:02a8cc4f06e8d57b6ea590",
+        "android_client_info": {
+          "package_name": "com.ynov.projet_web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197774047665-m3m1qvkrfdma856kisd15f6gupf9n1g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZGMQ03n-RyZVtVV6i75_rKxrZEAQyQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197774047665-m3m1qvkrfdma856kisd15f6gupf9n1g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
