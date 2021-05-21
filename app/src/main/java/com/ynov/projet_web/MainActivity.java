@@ -16,6 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
+
 import com.ynov.projet_web.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -54,7 +55,13 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser() == null )
             startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
+
+       /* FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
+        myRef.setValue("Hello, World!");*/
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -8,6 +8,26 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/Comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"/>
+
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
@@ -26,5 +46,5 @@
         android:id="@+id/buttonLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Déconnecter"/>
+        android:text="Déconnecter" />
 </LinearLayout>
